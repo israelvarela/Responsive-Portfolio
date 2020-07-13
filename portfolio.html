@@ -8,28 +8,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <!--Navbar-->
-<div id="app" class="container-fluid">
- <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom shadow-sm navbar-nav ml-auto" >
     <img src="assets/images/israel-varela-logo-2.png">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button">
         <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md my-2 my-md-0 mr-md-3" >
+                <a href="index.html" class="nav-item nav-link active p-2 text-white">About me</a>    
+                <a href="portfolio.html" class="nav-item nav-link p-2 text-white">Portfolio</a>
+                <a href="contact.html" class="nav-item nav-link p-2 text-white">Contact</a>
+        </div>
+    </nav>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <a href="index.html" class="nav-item nav-link active">About me</a>
-            </li>
-            <li class="nav-item">        
-            <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item"> 
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </li>
-            </ul>
-        </div>        
-    </div>
-</nav>
+</div>
 <body>
     <!-- Portfolio -->
     <div class="container" id="portfolio">
