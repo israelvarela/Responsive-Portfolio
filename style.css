@@ -1,0 +1,17 @@
+/* .row {
+    margin-right: -20px;
+} */
+
+.card {
+    float: left;
+} 
+
+.container {
+    float: left;
+}
+
+.contact {
+    padding-left: 75px;
+    margin-top: 25px;
+
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,90 +8,207 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
-<!--Navbar-->
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom shadow-sm navbar-nav ml-auto" >
-    <img src="assets/images/israel-varela-logo-2.png">
-    <button class="navbar-toggler navbar-toggler-right" type="button">
-        <span class="navbar-toggler-icon"></span>
-    <nav class="navbar navbar-expand-md my-2 my-md-0 mr-md-3" >
-                <a href="index.html" class="nav-item nav-link active p-2 text-white">About me</a>    
+
+<body>
+    <!--Navbar-->
+    <div
+        class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom shadow-sm navbar-nav ml-auto">
+        <img src="assets/images/israel-varela-logo-2.png">
+        <button class="navbar-toggler navbar-toggler-right" type="button">
+            <span class="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-expand-md my-2 my-md-0 mr-md-3">
+                <a href="index.html" class="nav-item nav-link active p-2 text-white">About me</a>
                 <a href="portfolio.html" class="nav-item nav-link p-2 text-white">Portfolio</a>
                 <a href="contact.html" class="nav-item nav-link p-2 text-white">Contact</a>
-        </div>
+    </div>
     </nav>
     </button>
-</div>
-<body>
-    <!-- Portfolio -->
-    <div class="container" id="portfolio">
-        <h1 class="text-center" id="port-border"> Portfolio</h1>
-        <!-- first line-->
-        <div class="row">   
-            <div class="col-md-6 col 12">
+    </div>
+
+    <!-- Slider -->
+    <div class="container" id="slider"></div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Users/israelvarela/Desktop/Code/Responsive-Portfolio/assets/images/ZOOLY.jpg"
+                    class="d-block w-100" alt="ZOOLY">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ZOOLY</h5>
+                    <p>A children's educational app.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-item active">
+                    <img src="/Users/israelvarela/Desktop/Code/Responsive-Portfolio/assets/images/Horiseon.jpg"
+                        class="d-block w-100" alt="Horiseon">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Horiseon</h5>
+                        <p>Digital Marketing Agency website.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item active">
+                        <img src="/Users/israelvarela/Desktop/Code/Responsive-Portfolio/assets/images/israel-varela-responsive-bio-website.jpg"
+                            class="d-block w-100" alt="Israel Varela Bio. Website">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Responsive Bio Website</h5>
+                            <p>Responsive Bio. website for Israel Varela.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="container col 12">
+            <div class="container" id="portfolio">
+                <h1 class="text-center" id="port-border"> Portfolio</h1>
+                <br>
+                <!-- first line-->
+                <div class="row">
+                    <div class="proj mx-auto">
+                        <a href="https://israelvarela.github.io/ZOOLY/" target="blank"><img
+                                class="mx-auto img-responsive proj" src="assets/images/ZOOLY.jpg" alt="ZOOLY"
+                                height="300px" width="600px"></a>
+                        <div class="bottom row">ZOOLY</div>
+                    </div>
+                </div>
+                <!-- sub row -->
+                <div class="row">
+                    <h1 class="mx-auto text-center"><a href="https://israelvarela.github.io/ZOOLY/"
+                            target="blank">ZOOLY</a></h1>
+                </div>
+                <!-- sub row -->
+                <div class="mx-auto text-center">
+                    <p>Created a children's educational app that displays gif's and
+                        recommended books when a specific animal is searched for. </p>
+                </div>
+                <div class="mx-auto text-center">
+                    <p style="text-align: center;"><a href="https://github.com/israelvarela/ZOOLY" target="blank">ZOOLY GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
                 <!--sub row-->
                 <div class="row">
-                    <div class= "proj mx-auto">
-                    <img class="mx-auto img-responsive proj" src="assets/images/Horiseon.jpg" alt="Hoiseon Digital Marketing Website" height="300px" width="300px" >
+                    <div class="proj mx-auto">
+                        <a href="https://israelvarela.github.io/CodeRefactor/" target="blank"><img
+                                class="mx-auto img-responsive proj" src="assets/images/Horiseon.jpg"
+                                alt="Horiseon Digital Marketing Website" height="300px" width="300px"></a>
                         <div class="bottom row">Horiseon</div>
-                    </div>    
+                    </div>
                 </div>
                 <!-- sub row -->
                 <div class="row">
-                    <h1 class="mx-auto text-center">Horiseon</h1>
+                    <h1 class="mx-auto text-center"><a href="https://israelvarela.github.io/CodeRefactor/"
+                            target="blank">Horiseon</h1></a>
                 </div>
                 <!-- sub row -->
-                <div class="row">
-                    <p class="mx-auto text-center">Created and fully deployed a website for a digital marketing agency from conceptualization to deployment.</p>
+                <div class="row no gutters" style="margin: 5%;">
+                    <p class="mx-auto text-center">Created and fully deployed a website for a digital marketing
+                        agency from conceptualization to deployment.</p>
+                </div>
+                <div class="mx-auto text-center">
+                    <p style="text-align: center; margin: -20px;"><a
+                            href="https://github.com/israelvarela/CodeRefactor" target="blank">Horiseon GitHub Repo</a></p>
                 </div>
             </div>
-            <div class="col-md-6 col-12">
+            <div class="col-sm-6">
                 <!--sub row-->
                 <div class="row">
-                    <div class= "proj mx-auto">
-                    <img class="mx-auto img-responsive proj" src="assets/images/israel-varela-responsive-bio-website.jpg" alt="Notepad with 'Business Plan' and random sketches on it" height="300px" width="300px" >
+                    <div class="proj mx-auto">
+                        <a href="https://israelvarela.github.io/Responsive-Portfolio/" target="blank"><img
+                                class="mx-auto img-responsive proj"
+                                src="/Users/israelvarela/Desktop/Code/Responsive-Portfolio/assets/images/israel-varela-portfollio.png"
+                                alt="Notepad with 'Business Plan' and random sketches on it" height="300px"
+                                width="300px"></a>
                         <div class="bottom row">Responsive Bio Website</div>
-                    </div> 
-                </div>   
-                <div class="row">
-                    <h1 class="mx-auto text-center">Responsive Bio Website</h1>
+                    </div>
                 </div>
                 <div class="row">
-                    <p class="mx-auto text-center">Here is an responsive website with my Bio that a built from scratch. Using the skills I learned in Coding Bootcamp and my previous knowlegdge of HTML and CSS I was able to create this website.</p>
+                    <h1 class="mx-auto text-center"><a href="https://israelvarela.github.io/Responsive-Portfolio/"
+                            target="blank">Responsive Bio Website</a></h1>
+                </div>
+                <div class="row no gutters" style="margin: 5%;">
+                    <p class="mx-auto text-center">Here is a responsive website with my Bio that a built from
+                        scratch.
+                        Using the skills I learned in Coding Bootcamp and my previous knowlegdge of HTML and CSS I
+                        was
+                        able to create this website.</p>
+                </div>
+                <div class="mx-auto text-center">
+                    <p style="text-align: center; margin: -20px;"><a
+                            href="https://github.com/israelvarela/Responsive-Portfolio" target="blank">Responsive Bio Website GitHub Repo</a></p>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
         <!--Second Row-->
-        <div class="row">   
-            <div class="col-md-6 col-12">
+        <div class="row">
+            <div class="col-sm-6">
                 <div class="row">
-                    <div class= "proj mx-auto">
-                    <img class="mx-auto img-responsive proj" src="assets/images/israel-varela-acting-website.jpg" alt="Israel Varela Acting Website" height="300px" width="300px" >
+                    <div class="proj mx-auto">
+                        <a href="https://israelvarela.net" target="blank"><img class="mx-auto img-responsive proj"
+                                src="assets/images/israel-varela-acting-website.jpg" alt="Israel Varela Acting Website"
+                                height="300px" width="300px"></a>
                         <div class="bottom row">Israel Varela Acting Website</div>
-                    </div> 
-                </div>   
-                <div class="row">
-                    <h1 class="mx-auto text-center">Israel Varela Acting Website</h1>
+                    </div>
                 </div>
                 <div class="row">
-                    <p class="mx-auto text-center">If you visit <a href="israelvarela.net">israelvarela.net</a> you will be able to see a fully functional website for my acting portfolio that I built using a pre-designed template and customize to my specific needs.</p>
+                    <h1 class="mx-auto text-center"><a href="https://israelvarela.net" target="blank">Israel Varela
+                            Acting Website</a></h1>
+                </div>
+                <div class="row no gutters" style="margin: 5%;">
+                    <p class="mx-auto text-center">If you visit <a href="israelvarela.net">israelvarela.net</a> you
+                        will
+                        be able to see a fully functional website for my acting portfolio that I built using a
+                        pre-designed template and customize to my specific needs.</p>
                 </div>
             </div>
-            <div class="col-md-6 col-12">
+            <div class="col-sm-6">
                 <div class="row">
-                    <div class= "proj mx-auto">
-                    <img class="mx-auto img-responsive proj" src="assets/images/Framed-Up-Film-Festival.jpg" alt="Framed Up Film Festival" height="300px" width="300px" >
+                    <div class="proj mx-auto">
+                        <a href="https://framedupfilmfestival.com" target="blank"><img
+                                class="mx-auto img-responsive proj" src="assets/images/Framed-Up-Film-Festival.jpg"
+                                alt="Framed Up Film Festival" height="300px" width="300px"></a>>
                         <div class="bottom row">Framed Up Film Festival</div>
-                    </div> 
-                </div>   
-                <div class="row">
-                    <h1 class="mx-auto text-center">Framed Up Film Festival</h1>
+                    </div>
                 </div>
                 <div class="row">
-                    <p class="mx-auto text-center">The Framed Up Film Festival as an online film festival for independent filmmakers that I launched in 2019. The goal was to showcase content from independent filmmakers to the world. I created a secure registration based website to house filmmakers content who were accepted into the festival behind a secure registration gate so only those visitors who registered on the website would be able to view the content.</p>
+                    <h1 class="mx-auto text-center"><a href="https://framedupfilmfestival.com" target="blank">Framed
+                            Up
+                            Film Festival</a></h1>
+                </div>
+                <div class="row no gutters" style="margin: 5%;">
+                    <p class="mx-auto text-center">The Framed Up Film Festival as an online film festival for
+                        independent filmmakers that I launched in 2019. The goal was to showcase content from
+                        independent filmmakers to the world. I created a secure registration based website to house
+                        filmmakers content who were accepted into the festival behind a secure registration gate so
+                        only
+                        those visitors who registered on the website would be able to view the content.</p>
                 </div>
             </div>
         </div>
-        
-</div>
+
+    </div>
 </body>
+
 </html>
