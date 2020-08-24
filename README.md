@@ -16,7 +16,7 @@ Create a mobile-first responsive bio and portfolio website.
 
 ```
 
-![Responsive Portfolio]<img width="577" alt="israel-varela-portfollio" src="https://user-images.githubusercontent.com/62815477/90998799-910cbc80-e58a-11ea-8235-90f5bf3ed02a.png">
+![Responsive Portfolio]<"https://user-images.githubusercontent.com/62815477/90998799-910cbc80-e58a-11ea-8235-90f5bf3ed02a.png">
 
 
 
