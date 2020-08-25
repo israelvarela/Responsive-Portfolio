@@ -6,12 +6,16 @@
     float: left;
 } 
 
-.container {
+/* .container {
     float: left;
-}
+    align-content: center;
+} */
 
 .contact {
     padding-left: 75px;
     margin-top: 25px;
+    margin: auto;
+    padding-top: 40px;
 
 }
+
