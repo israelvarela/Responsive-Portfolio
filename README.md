@@ -13,5 +13,6 @@ Create a mobile-first responsive bio and portfolio website.
 
    * Responsive images
 
-```
-![Responsive-Portfolio](https://user-images.githubusercontent.com/62815477/90999366-04fb9480-e58c-11ea-96ce-6c1704a18325.png)
+
+![Screen Shot 2020-10-06 at 7 50 14 PM](https://user-images.githubusercontent.com/62815477/95274963-d28cba80-080c-11eb-9f1f-41c643f49b9c.png)
+
